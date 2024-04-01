@@ -1,0 +1,188 @@
+
+.gioHang{
+    height: auto;
+}
+.menu-gioHang{
+float: left;
+width: 900px;
+
+height: auto;
+margin-bottom: 40px;
+margin-left:100px;
+}
+.menu-gioHang span{
+margin-left: 20px;
+
+    }
+    .menu-gioHang1{
+     
+        font-family: "Quicksand", sans-serif;
+   border-bottom: 4px solid #e0d7d7; 
+
+    }
+    .ThanhToan{
+        float: left;
+        margin-left: 20px;
+       border-left: 2px solid #e0d7d7 ;
+        width: 400px;
+        font-family: "Quicksand", sans-serif;
+        height: 500px;
+    }
+.ThanhToan1{
+    margin-left:20px;
+    width: 100%;
+  float: left;
+  font-family: "Quicksand", sans-serif;
+    border-bottom: 2px solid #e0d7d7; 
+   
+}
+.THTT{
+    font-family: "Quicksand", sans-serif;
+    width: 100%;
+    background-color: rgb(202, 194, 182);
+    height: 40px;
+    border: 0;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+ 
+}
+.THTT:hover{
+    background-color: rgb(147, 132, 109);
+}
+.TTXSP{
+    margin-top: 10px;
+    width: 300px;
+    height: 50px;
+    float: left;
+background-color: #fcf8f8;
+color:brown;
+border: solid;
+   cursor: pointer;
+}
+.TTXSP:hover{
+    color:rgb(222, 18, 18);
+
+
+}
+table {
+    border-collapse: collapse; /* Để loại bỏ khoảng trống giữa các đường viền */
+    width: 100%;
+    table-layout: fixed;
+  
+  }
+
+ table th, td {
+    border-bottom:  1px solid black;
+    padding: 8px;
+    text-align: center;
+  }
+
+  .menu-sanpham{
+    width: 99.9%;
+height: 500px;
+    
+    border-top: 0;
+    overflow: scroll;
+
+}
+.menu-sanpham::-webkit-scrollbar {
+    width: 0px;  
+   
+               /* Chiều rộng vùng chứa scrollbar */
+  }
+  
+
+#payment-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+#btn-huy-bo {
+    background-color: #ddd;
+    color: #333;
+    margin-top: 10px;
+}
+
+#btn-huy-bo:hover {
+    background-color: #ccc;
+}
+
+
+
+.h {
+    float: left;
+    box-sizing: border-box;
+    color: #222222;
+    font-family: "Quicksand", sans-serif;
+    font-size: 16px;
+    line-height: 25.6px;
+
+}
+
+.hh {
+    float: left;
+    font-size: 40px;
+    font-family: "Quicksand", sans-serif;
+    font-style: normal;
+    line-height: 40px;
+    position: absolute;
+    text-rendering: optimizeSpeed;
+    text-transform: uppercase;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px #5a4137;
+    -webkit-text-stroke-width: 1px;
+}
+
+.hhh {
+    float: left;
+    animation-delay: 0s;
+    animation-duration: 3s;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-timing-function: ease-in-out;
+    box-sizing: border-box;
+    color: #a56d00;
+    display: block;
+    font-family: "Quicksand", sans-serif;
+    font-size: 40px;
+    line-height: 40px;
+    font-style: normal;
+    position: absolute;
+    text-rendering: optimizeSpeed;
+    text-transform: uppercase;
+    animation-name: animate;
+
+}
+
+@keyframes animate {
+
+    0%,
+    100% {
+        clip-path: polygon(0% 45%, 15% 44%, 32% 50%, 54% 60%, 70% 81%, 84% 69%, 100% 72%, 100% 100%, 0% 100%)
+    }
+
+    50% {
+        clip-path: polygon(0% 60%, 16% 65%, 34% 66%, 51% 62%, 67% 50%, 84% 45%, 100% 46%, 100% 100%, 0% 100%);
+    }
+}
